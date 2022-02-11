@@ -28,11 +28,9 @@ h4 {
 }
 
 .carousel-inner img {
-   
     width: 100%;
     /* Set width to 100% */
     margin: auto;
-    
 }
 
 .carousel-caption h3 {
@@ -182,4 +180,13 @@ footer a:hover {
 
 textarea {
     resize: none;
+}
+
+.circle img {
+    transition: 1s ease;
+}
+
+.circle img:hover {
+    border-radius: 50%;
+    transition: 1s ease;
 }
