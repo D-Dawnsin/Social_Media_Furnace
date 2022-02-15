@@ -10,11 +10,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="StyleSheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="banner.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="banner.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="banner">
+        <div class="banner__content">
+          <div class="banner__text">
+            <strong>Attention:</strong> Stay notified and updated when the furnace is active by signing up for email alerts.
+          </div>
+          <button class="banner__close" type="button">
+            <span class="material-icons">
+              close
+            </span>
+          </button>
+        </div>
+      </div>
+
+    <nav class="navbar navbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
