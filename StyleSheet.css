@@ -156,7 +156,7 @@ h4,
 }
 
 .dropdown-menu li a:hover {
-    background-color: red !important;
+    background-color: rgb(220, 220, 220) !important;
 }
 
 footer {
