@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="animation.js"></script>
     <script src="banner.js"></script>
+    <link rel="stylesheet" href="notify.css">
+    <script src="notify.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -59,7 +61,7 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#myPage">HOME</a></li>
-                        <li><a href="#furnace">FURNACE</a></li>
+                        <li><a href="#furnace">FACILITY</a></li>
                         <li><a href="#projects">PROJECTS</a></li>
                         <li><a href="#social_media">SOCIAL MEDIA</a></li>
                         <li><a href="#contact_us">STAY NOTIFIED</a></li>
@@ -124,7 +126,7 @@
 
     <div id="furnace" class="container text-center">
         <h3>THE FURNACE</h3>
-        <p><em>About</em></p>
+        <p style="color:black"><em>About</em></p>
         At the heart of the research facility is a solar furnace. Only 5 research facilities in the United States have a
         solar furnace, and Valpo is the only undergraduate institute in the United States with one. The Markiewicz Solar
         Energy Research Facility
@@ -140,15 +142,15 @@
         design and building process of the James S. Markiewicz Solar Energy Research Facility.
         <br>
         <br>
-        <p><em>Background</em></p>
-        <p>The research facility is named after James S. Markiewicz ’72, whose generosity made the Solar Energy Research
+        <p style="color:black"><em>Background</em></p>
+            <p>The research facility is named after James S. Markiewicz ’72, whose generosity made the Solar Energy Research
             Facility possible, along with funding from the United States Department of Energy. James founded Capital
             Engineering in 1984 and was
             the company’s president until it was sold in 2007. James favorite quote (paraphrasing Confucius) is
             appreciated by Valpo’s engineering students: “Choose something you love to do and you will never have to
             work another day in your life.”</p>
 
-        <p><em>Faculty</em></p>
+            <p style="color:black"><em>Faculty</em></p>
 
         <!-- Venstrom Profile -->
 
@@ -237,7 +239,7 @@
 
     <div>
         <center>
-            <p><em>Solar Research Facility Video</em></p>
+            <p><em>Solar Research Imformative Video</em></p>
 
             <iframe width="700" height="345" src="https://www.youtube.com/embed/HWo6_MhaDdo"
                 title="YouTube video player" frameborder="0"
@@ -333,6 +335,36 @@
 
     <div id="contact_us" class="container">
         <h3 class="text-center">Sign up!</h3>
+        <section class="container1">
+            <section class="one">
+                <div class="logo">
+                    <img src="images/download-removebg-preview.png" height="125" width="125">
+                    <h2 class="heading">
+                        please subscribe to get updates
+                    </h2>
+                    <p> Stay notified for updates and news about the furnace and when it's active!
+                    </p>
+                    <form class="needs-validation " method="post" action="connect.php">
+                        <input type='text' placeholder="enter your email" name="email" id="email" value="" required><br />
+                        <button class="btn" role="button">
+                            Sign up
+                        </button>
+                    </form>
+            </section>
+            <section class="two">
+                <h3>
+                    Thank You For Signing Up !
+                </h3>
+                <div class="close">
+                </div>
+            </section>
+        </section>
+    </div>
+
+
+    <!-- 
+    <div id="contact_us" class="container">
+        <h3 class="text-center">Sign up!</h3>
         <p class="text-center"><em>Stay notified for updates and news about the furnace and when it's active!</em></p>
 
         <div class="row">
@@ -366,12 +398,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Image of location/map -->
 
-    <img src="images/school map.png" style="width:100%">
+    <img src="images/school map.png" style="width:100%" height="600">
 
     <!-- Footer -->
 
