@@ -5,18 +5,17 @@
 $con = mysqli_connect('localhost', 'root', '','emails');
 
 // get the post records
-$name = $_POST['name'];
 $email = $_POST['email'];
 
 // database insert SQL code
-$sql = "INSERT INTO `test` (`name`, `email`) VALUES ('$name', '$email')";
+$sql = "INSERT INTO `test` (`email`) VALUES ('$email')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Contact Records Inserted";
+	header('Location: http://localhost/Social_Media_Furnace/#contact_us');
 }
 
 ?>

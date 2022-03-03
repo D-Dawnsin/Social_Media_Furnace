@@ -16,6 +16,14 @@ h4 {
     padding: 80px 120px;
 }
 
+.container-space{
+    padding: 25px 25px;
+}
+
+.container-bigger-space{
+    padding: 50px 50px;
+}
+
 .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
@@ -47,6 +55,11 @@ h4 {
 
 .bg-1 {
     background: #2d2d30;
+    color: #bdbdbd;
+}
+
+.bg-2 {
+    background: #dddddd;
     color: #bdbdbd;
 }
 
@@ -211,3 +224,4 @@ textarea {
   .container:hover .overlay {
     opacity: 1;
   }
+  
