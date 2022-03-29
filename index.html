@@ -293,9 +293,9 @@
                     </h2>
                     <p> Stay notified for updates and news about the furnace and when it's active!
                     </p>
-                    <form class="needs-validation " method="post" action="connect.php">
+                    <form class="needs-validation " method="post" action="connect.php" onSubmit="return confirm('Are you sure this is the email you wish to use?');">
                         <input type='text' placeholder="enter your email" name="email" id="email" value="" required><br />
-                        <button class="btn" role="button" onclick="showAlert()">
+                        <button class="btn" role="button">
                             Sign up
                         </button>
                     </form>
