@@ -123,7 +123,7 @@ input[type='text']:active:focus::-webkit-input-placeholder
   transition: all .3s ease-in-out; 
 }
 
-.one  .btn{
+.btn1{
   width:85%;
   background:#34495E;
   padding:15px;
@@ -135,13 +135,13 @@ input[type='text']:active:focus::-webkit-input-placeholder
   font-family: 'Open Sans', sans-serif;
 }
 
-.one  .btn:active:focus,
-.one  .btn:focus,
-.one  .btn:hover{
+.btn1:active:focus,
+.btn1:focus,
+.btn1:hover{
   outline : none;
 }
 
-.one .btn:hover{
+.btn1:hover{
   cursor:pointer;
 }
 
@@ -177,4 +177,16 @@ input[type='text']:active:focus::-webkit-input-placeholder
   background:#fff;
   -webkit-transform:rotate(-45deg);
   transform:rotate(-45deg);
+}
+
+.btn1{
+width:85%;
+  background:#34495E;
+  padding:15px;
+  border:none;
+  border-radius:5px;
+  font-size:14px;
+  color:#fff;
+  text-transform:capitalize;
+  font-family: 'Open Sans', sans-serif;
 }

@@ -3,15 +3,15 @@
 <head>
     <title>Admin Login</title>
     <link rel="stylesheet" href="admin_login.css">
-
+    <script defer src="admin_login.js"></script>
 </head>
 
 <div class="login">
     <h1>Admin Login</h1>
-    <form method="post">
-        <input type="text" name="u" placeholder="Username" required="required" />
-        <input type="password" name="p" placeholder="Password" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
+    <form id="login-form">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required = "required">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required = "required">
+        <button type="submit" id="login-form-submit" class="btn btn-primary btn-block btn-large">Login</button>
     </form>
 
     <form action="index.html">
