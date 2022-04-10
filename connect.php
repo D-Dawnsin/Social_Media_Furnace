@@ -15,7 +15,7 @@ $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	header('Location: http://localhost/Social_Media_Furnace/#contact_us');
+	header('Location: index.html#contact_us');
 }
 
 ?>
