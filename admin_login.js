@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "pass") {
+    if (username === "Markiewicz_Admin" && password === "3yBCJt5v9Mkn4nvL") {
         location.href = "admin_dash.html";
     } else {
         alert("Invalid Login");
